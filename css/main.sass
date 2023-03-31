@@ -181,7 +181,10 @@ header
 
     @media screen and ( max-width: 500px )
         .main__item
-            width: 100%
+            width: 50%
+
+            &:nth-child(5)
+                width: 100%
 
 .scroll_down
     position: absolute
@@ -244,6 +247,49 @@ section.highlights
 
             img
                 margin: 25px 0 !important
+
+section.events
+    width: 100%
+    padding: 40px 120px
+
+    h2
+        text-align: center
+        margin: 0 0 30px 0
+
+    .events__container
+        display: flex
+
+    .event
+        &:not(:first-child)
+            margin: 0 0 0 30px
+        img
+            width: 300px
+            height: auto
+        &__info
+            display: flex
+            align-items: center
+            margin: 10px 0 0 0
+
+        &__text
+            display: flex
+            flex-direction: column
+            justify-content: center
+            font-size: 13px
+            margin: 0 0 0 20px
+
+        &__name
+            a
+                color: orange
+                text-decoration-color: orange
+                font-weight: bold
+
+        &__date-min
+            text-align: center
+            line-height: 18px
+            text-transform: uppercase
+            font-size: 12px
+            b
+                font-size: 25px
 
 section.partners
     display: flex

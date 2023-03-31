@@ -10,4 +10,3 @@ for (let i = 0; i < languages.length; i++) {
         currentLanguage = `${e.target.id}`;
     });
 }
-
