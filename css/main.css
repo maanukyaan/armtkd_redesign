@@ -1,3 +1,6 @@
+body #menu li {
+  font-size: 20px !important;
+}
 body #page {
   background: #f1f1f1;
   display: flex;
@@ -17,7 +20,7 @@ body .h2 {
   vertical-align: center;
 }
 body .link {
-  color: #000;
+  color: inherit;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 20px;
@@ -107,11 +110,12 @@ header .flags__container img {
 }
 
 .main {
-  height: 500px;
+  padding: 50px 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .main__item {
   height: 100%;

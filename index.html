@@ -62,7 +62,7 @@
         </a>
       </header>
 
-      <section class="main">
+      <section class="main" style="height: 500px; flex-direction: row;">
         <div class="main__item">
           <img src="img/main/1.png" alt="Main item" />
           <div class="main__item__info">
@@ -171,7 +171,7 @@
           </div>
 
           <div class="highlight">
-            <img src="img/highlights/5.jpg" alt="Highlight" />
+            <img src="img/highlights/5.JPG" alt="Highlight" />
             <div class="highlight__info">
               <h3>Qualification exam at the “Crystal” club.</h3>
               <p>
@@ -392,7 +392,15 @@
     </div>
     <nav id="menu">
       <ul>
-        <li><a href="/leadership.html" class="link">About us</a></li>
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="leadership.html" class="link">About us</a></li>
+        <li>
+          <span class="link">Members</span>
+          <ul>
+            <li><a href="honorary.html" class="link">Honorary members</a></li>
+            <li><a href="clubs.html" class="link">Clubs</a></li>
+          </ul>
+        </li>
         <li><a href="/events.html" class="link">Events</a></li>
         <li><a href="/media.html" class="link">Media</a></li>
         <li><a href="/contact.html" class="link">Contact us</a></li>
@@ -407,7 +415,20 @@
           offCanvas: {
             position: "right-front",
           },
-          theme: "dark",
+          theme: "light",
+          counters: {
+            add: true,
+          },
+          iconPanels: {
+            add: true,
+            visible: 1,
+          },
+          navbars: [
+            {
+              position: "top",
+              content: ["prev", "title"],
+            },
+          ],
         });
       });
     </script>
