@@ -281,6 +281,24 @@ section.events h2 {
 }
 section.events .events__container {
   display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 700px) {
+  section.events {
+    padding: 0px 50px 50px;
+  }
+  section.events .events__container {
+    flex-direction: column;
+  }
+  section.events .events__container .event:not(:first-child) {
+    margin: 20px 0 0 0 !important;
+  }
+}
+section.events .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 section.events .event:not(:first-child) {
   margin: 0 0 0 30px;

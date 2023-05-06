@@ -258,8 +258,21 @@ section.events
 
     .events__container
         display: flex
+        justify-content: center
+
+    @media screen and ( max-width: 700px )
+        padding: 0px 50px 50px
+        .events__container
+            flex-direction: column
+            .event
+                &:not(:first-child)
+                    margin: 20px 0 0 0 !important
 
     .event
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
         &:not(:first-child)
             margin: 0 0 0 30px
         img
