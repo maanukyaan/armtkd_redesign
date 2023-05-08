@@ -497,7 +497,7 @@ footer .copyrights {
   min-height: 250px;
   display: flex;
   flex-direction: column;
-  background: rgba(243, 224, 182, 0.6470588235);
+  background: #ECF8FC;
 }
 .clubs__container .club__name {
   text-align: center;

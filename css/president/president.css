@@ -421,23 +421,6 @@ footer .copyrights {
   }
 }
 
-.fa {
-  text-decoration: none !important;
-  transition: all 0.5s ease !important;
-  margin: 0 10px !important;
-  color: rgb(201, 199, 199) !important;
-  font-size: 22px !important;
-}
-.fa .fa-facebook:hover {
-  color: rgb(66, 103, 178) !important;
-}
-.fa .fa-instagram:hover {
-  color: rgb(222, 47, 110) !important;
-}
-.fa .fa-youtube:hover {
-  color: rgba(254, 0, 0, 0.6) !important;
-}
-
 .nav__fa-icons li a {
   display: flex !important;
   align-items: center !important;
@@ -473,6 +456,26 @@ footer .copyrights {
 }
 .manukyan-web img:hover {
   transform: scale(1.1);
+}
+
+.fa {
+  text-decoration: none !important;
+  transition: all 0.5s ease !important;
+  margin: 0 10px !important;
+  color: rgb(201, 199, 199);
+  font-size: 22px !important;
+}
+
+.fa-facebook:hover {
+  color: rgb(66, 103, 178) !important;
+}
+
+.fa-instagram:hover {
+  color: rgb(222, 47, 110) !important;
+}
+
+.fa-youtube:hover {
+  color: rgba(254, 0, 0, 0.6) !important;
 }
 
 .president {
