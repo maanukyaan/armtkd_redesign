@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="css/hamburger.min.css" />
 
     <!-- Main styles -->
-    <link rel="stylesheet" href="css/main/main.css" />
+    <link rel="stylesheet" href="css/events/events.css" />
   </head>
 
   <body>
@@ -62,7 +62,22 @@
         </a>
       </header>
 
-      <section class="main"></section>
+      <section class="main events"></section>
+
+      <script>
+        const events = document.querySelector(".events");
+
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            const indexEvents = document.createElement("div");
+            indexEvents.innerHTML = this.responseText;
+            events.innerHTML = indexEvents.querySelector("#events").innerHTML;
+          }
+        };
+        xhr.open("GET", "index.html", true);
+        xhr.send();
+      </script>
 
       <footer>
         <div class="footer__left">
