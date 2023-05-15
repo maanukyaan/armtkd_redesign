@@ -284,6 +284,7 @@ section.highlights .highlights__container .highlight .highlight-date span {
 }
 
 section.events {
+  display: none;
   width: 100%;
   padding: 40px 120px;
 }
@@ -576,6 +577,11 @@ footer .copyrights {
   }
   .clubs__container .club__info > div {
     margin: 0 0 20px 0;
+  }
+  .clubs__container .club__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .clubs__container .club__leader {
     width: inherit;

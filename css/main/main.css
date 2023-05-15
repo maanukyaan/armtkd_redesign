@@ -284,6 +284,7 @@ section.highlights .highlights__container .highlight .highlight-date span {
 }
 
 section.events {
+  display: none;
   width: 100%;
   padding: 40px 120px;
 }

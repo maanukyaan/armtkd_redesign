@@ -1,13 +1,21 @@
 @import "../main/main"
 
 .president
-    padding-left: 100px
-    padding-right: 100px
+    h2
+        font-weight: bold
+    &__container
+        padding: 30px 100px
+        display: flex
+        align-items: center
+        justify-content: center
 
-    p
-        margin: 40px 0
-        font-size: 22px
-        text-align: justify
+        p
+            margin: 0 0 0 50px
+            font-size: 22px
+            text-align: justify
+
+        img
+            width: 400px
 
     @media screen and (max-width: 1000px)
         padding-left: 20px

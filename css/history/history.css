@@ -284,6 +284,7 @@ section.highlights .highlights__container .highlight .highlight-date span {
 }
 
 section.events {
+  display: none;
   width: 100%;
   padding: 40px 120px;
 }
@@ -490,6 +491,7 @@ footer .copyrights {
 .history img {
   margin: 20px 0 0 0;
   width: 40%;
+  border-radius: 50%;
 }
 .history p {
   margin: 40px 0;
