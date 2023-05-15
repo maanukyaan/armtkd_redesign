@@ -224,6 +224,11 @@ section.highlights {
   align-items: center;
   padding: 40px;
 }
+section.highlights a {
+  color: orange;
+  text-decoration-color: orange;
+  font-weight: bold;
+}
 section.highlights > img {
   height: auto;
   width: 600px;

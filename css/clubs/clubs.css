@@ -224,6 +224,11 @@ section.highlights {
   align-items: center;
   padding: 40px;
 }
+section.highlights a {
+  color: orange;
+  text-decoration-color: orange;
+  font-weight: bold;
+}
 section.highlights > img {
   height: auto;
   width: 600px;
@@ -525,6 +530,7 @@ footer .copyrights {
   margin: 5px 0 0 0;
 }
 .clubs__container .club__logo {
+  width: 17%;
   margin: 0 40px;
 }
 .clubs__container .club__logo img {
