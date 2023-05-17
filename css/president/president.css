@@ -284,7 +284,6 @@ section.highlights .highlights__container .highlight .highlight-date span {
 }
 
 section.events {
-  display: none;
   width: 100%;
   padding: 40px 120px;
 }
@@ -502,15 +501,15 @@ footer .copyrights {
   width: 400px;
 }
 @media screen and (max-width: 1000px) {
-  .president {
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-wrap: nowrap;
+  .president__container {
+    padding: 30px 40px;
+    flex-direction: column;
   }
-  .president p {
+  .president__container p {
     text-align: left;
+    margin: 20px 0 0 0;
   }
-  .president img {
-    width: 90%;
+  .president__container img {
+    width: 100%;
   }
 }/*# sourceMappingURL=president.css.map */
