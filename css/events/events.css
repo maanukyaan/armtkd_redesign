@@ -44,6 +44,7 @@ header .header__container {
   align-items: center;
 }
 header .header__logo {
+  cursor: pointer;
   height: 110px;
 }
 header .header__logo img {
@@ -390,6 +391,7 @@ footer .footer__right {
   display: flex;
 }
 footer img {
+  cursor: pointer;
   height: 60px;
 }
 footer .vertical_line {

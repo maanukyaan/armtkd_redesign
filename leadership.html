@@ -146,7 +146,7 @@
               </div>
 
               <div class="leadership__member-name">
-                <h4>Yeva Sargsyan</h4>
+                <h4>Yeva Simonyan</h4>
                 <h5>Promotion & Commendation Committee</h5>
               </div>
             </div>
@@ -260,6 +260,8 @@
       </ul>
     </nav>
 
+    <script src="js/redirectToHome.js"></script>
+
     <script src="js/mmenu.js"></script>
     <!-- Fire Mmenu -->
     <script>
@@ -268,7 +270,20 @@
           offCanvas: {
             position: "right-front",
           },
-          theme: "dark",
+          theme: "light",
+          counters: {
+            add: true,
+          },
+          iconPanels: {
+            add: true,
+            visible: 1,
+          },
+          navbars: [
+            {
+              position: "top",
+              content: ["prev", "title"],
+            },
+          ],
         });
       });
     </script>
